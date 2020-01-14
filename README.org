@@ -180,6 +180,8 @@ Using a theme from the [[id:79e0ed21-c3b0-4f00-bdab-29fbff9dcad4][theme gallery]
    #+begin_src org :exports code
    ,#+SETUPFILE: path/to/Git/repo/setup/THEME-NAME-local.setup
    #+end_src
+   
+   Additionally, you have to copy the "styles" folder from the cloned repository into the folder that contains your to-be-exported .org file.
 
 2. Then, you *export* your Org mode file *to HTML* with =org-html-export-to-html= or
    with =C-c C-e h h=.
